@@ -36,6 +36,15 @@ ssh-keygen -t rsa
 
 右上角的new repository
 
+```shell
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bercoke/Git-.git
+git push -u origin main
+```
+
 ##### 下载开源的项目
 
 ```shell
